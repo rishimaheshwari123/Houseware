@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { useReducer } from "react";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+import { Footer } from "./components/Footer";
 
-function App() {
+import { todoReducer } from "./reducer";
+
+import "./App.css";
+
+export function App() {
+  const [todos, dispatch] = useReducer(todoReducer, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header dispatch={dispatch} />
+      <Main todos={todos} dispatch={dispatch} />
+      <Footer todos={todos} dispatch={dispatch} />
+    </>
   );
 }
-
-export default App;
