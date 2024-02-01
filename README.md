@@ -8,7 +8,8 @@ In this task I have given a react project, and I have to  generate the test case
 
 <h1><p align="center"><b><b>Test cases</b></b>
 </p></h1>
-## Add Task :
+
+ ## Add Task :
  Open the todo list application
  Enter a task description
  Press the enter button
