@@ -9,19 +9,19 @@ In this task I have given a react project, and I have to  generate the test case
 <h1><p align="center"><b><b>Test cases</b></b>
 </p></h1>
 ## Add Task :
-# Open the todo list application
-# Enter a task description
-# Press the enter button
+ Open the todo list application
+ Enter a task description
+ Press the enter button
 
 ## Mark Task as Completed
-# Open the todo list application
-# Locate a task in the list
-# Click on the checkbox or an "Mark as Completed" option  to the delete the task.
-# The task should be visually marked as completed and moved to the completed tasks section
+ Open the todo list application
+ Locate a task in the list
+ Click on the checkbox or an "Mark as Completed" option  to the delete the task.
+ The task should be visually marked as completed and moved to the completed tasks section
 
 ## Delete Task:
-# Whenever you make task Mark as Completed so it shows the delete button
-# We also have clear all task button for clear all task
+  Whenever you make task Mark as Completed so it shows the delete button
+  We also have clear all task button for clear all task
 
 
 
